@@ -1,0 +1,54 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f9ff;
+}
+
+.appContainer {
+  min-height: 100vh;
+}
+
+
+.menu a {
+  margin: 8px;
+  text-decoration: none;
+  color: rgb(30, 144, 255);
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  color : white;
+  background-color: #202224;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 32px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 35px;
+  color: #1f1f1f;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}

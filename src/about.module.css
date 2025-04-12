@@ -1,0 +1,46 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.introSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+
+.skills h2{
+    font-size: 32px;
+    color: #0d0c0c;
+    margin-bottom: 20px;
+}
+
+.skills li {
+    color: #555;
+    line-height: 1.6;
+}
+
+.introText h3{
+    font-size: 30px;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+}
+
+.introText p{
+    font-size: 21px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}

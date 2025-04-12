@@ -1,0 +1,90 @@
+.homeContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background: rgb(252, 250, 250);
+
+    background-color: #f5f9ff;
+  }
+
+  .introSection {
+    display: flex;
+    
+    flex-direction: ROW;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .textSection h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .textSection .highlight {
+    color: rgb(30, 144, 255);
+  }
+  
+  .textSection h2 {
+    font-size: 32px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .introText {
+    font-size: 30px;
+  }
+
+  .introText p{
+    font-size: 21px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+  .ctaButton a{
+    text-decoration: none;
+    color: rgb(13, 12, 12);
+  }
+
+  .ctaButton {
+    background-color: #1E90FF;
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .ctaButton:hover {
+    color: white;
+    background-color: #0a0a0a;
+  }
+
+  .ctaButton:hover a{
+    color: white;
+  }
+  
+  .imageSection {
+    position: relative;
+    max-width: 50%;
+    background-color: aquamarine;
+  }
+  
+  .blob {
+    padding: 20px;
+    display: inline-block;
+  }
+  
+  .profileImg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+  
